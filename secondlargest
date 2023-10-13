@@ -1,0 +1,12 @@
+public class Secondlargest  {
+	public static void main(String[]args)
+	{
+		int a[] = {1,2,3,4};
+		int n=a.length;
+		Arrays.sort(a);
+		System.out.println("Second largest element in array :" +a[n-2]);
+		
+	}
+
+	
+}
